@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -exec chmod -R 751 {} +
+chmod -R u+rwX,go+rX,go-w .
